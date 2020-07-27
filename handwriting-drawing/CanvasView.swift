@@ -20,7 +20,7 @@ class CanvasView: UIView {
         self.clipsToBounds = true
         self.isMultipleTouchEnabled = false
         
-        lineColor = UIColor.white
+        lineColor = UIColor(named: "viewColor")
         lineWidth = 10
     }
     

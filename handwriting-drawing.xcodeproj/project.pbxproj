@@ -15,6 +15,7 @@
 		356B1EC624CE61AA00E19BF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356B1EC424CE61AA00E19BF9 /* Main.storyboard */; };
 		356B1EC824CE61AA00E19BF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 356B1EC724CE61AA00E19BF9 /* Assets.xcassets */; };
 		356B1ECB24CE61AA00E19BF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356B1EC924CE61AA00E19BF9 /* LaunchScreen.storyboard */; };
+		35DF533B24CE7FCA0037C404 /* mnistCNN.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 35DF533A24CE7FCA0037C404 /* mnistCNN.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		356B1EC724CE61AA00E19BF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		356B1ECA24CE61AA00E19BF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		356B1ECC24CE61AA00E19BF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35DF533A24CE7FCA0037C404 /* mnistCNN.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = mnistCNN.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		356B1EBD24CE61AA00E19BF9 /* handwriting-drawing */ = {
 			isa = PBXGroup;
 			children = (
+				35DF533A24CE7FCA0037C404 /* mnistCNN.mlmodel */,
 				3562ED2F24CE72470099A94F /* MNISTClassifier.mlmodel */,
 				356B1EBE24CE61AA00E19BF9 /* AppDelegate.swift */,
 				356B1EC024CE61AA00E19BF9 /* SceneDelegate.swift */,
@@ -148,6 +151,7 @@
 				356B1EBF24CE61AA00E19BF9 /* AppDelegate.swift in Sources */,
 				3562ED2E24CE66520099A94F /* CanvasView.swift in Sources */,
 				356B1EC124CE61AA00E19BF9 /* SceneDelegate.swift in Sources */,
+				35DF533B24CE7FCA0037C404 /* mnistCNN.mlmodel in Sources */,
 				3562ED3024CE72470099A94F /* MNISTClassifier.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

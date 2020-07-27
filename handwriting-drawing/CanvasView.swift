@@ -20,7 +20,7 @@ class CanvasView: UIView {
         self.clipsToBounds = true
         self.isMultipleTouchEnabled = false
         
-        lineColor = UIColor(named: "viewColor")
+        lineColor = UIColor(named: "canvasColor")
         lineWidth = 10
     }
     
@@ -67,5 +67,15 @@ class CanvasView: UIView {
         // Drawing code
     }
     */
+}
 
+extension UIImage{
+    convenience init(view: UIView){
+        //take screenshot of current view
+        UIGraphicsBeginImageContext(view.frame.size)
+        view.layer.render(in: UIGraphicsGetCurrentContext()!)
+        let image = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        self.init(cgImage: image!.cgImage!)
+    }
 }

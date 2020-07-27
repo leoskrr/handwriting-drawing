@@ -17,39 +17,33 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aFZ-OS-eZV" customClass="CanvasView" customModule="handwriting_drawing" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="262" width="414" height="474"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="664"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" name="canvasColor"/>
+                                <color key="backgroundColor" name="viewColor"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="phM-Yg-Wol">
-                                <rect key="frame" x="332" y="209" width="82" height="53"/>
+                                <rect key="frame" x="332" y="672" width="82" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" name="canvasColor"/>
                                 <state key="normal" image="clear.fill" catalog="system">
-                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="black"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="light"/>
                                 </state>
                                 <connections>
                                     <action selector="clearCanvas:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VNz-u6-SLq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I0U-Dk-npp">
-                                <rect key="frame" x="234" y="209" width="82" height="53"/>
+                                <rect key="frame" x="242" y="672" width="82" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" name="canvasColor"/>
                                 <state key="normal" image="eye" catalog="system">
-                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="black"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="light"/>
                                 </state>
                                 <connections>
                                     <action selector="clearCanvas:" destination="BYZ-38-t0r" eventType="touchUpInside" id="73Q-nb-6Wy"/>
+                                    <action selector="recognizeDraw:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aTC-wr-Ucr"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wr5-D7-jm1">
-                                <rect key="frame" x="0.0" y="60" width="414" height="97"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="42"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" name="viewColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

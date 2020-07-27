@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3562ED2E24CE66520099A94F /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3562ED2D24CE66520099A94F /* CanvasView.swift */; };
 		356B1EBF24CE61AA00E19BF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356B1EBE24CE61AA00E19BF9 /* AppDelegate.swift */; };
 		356B1EC124CE61AA00E19BF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356B1EC024CE61AA00E19BF9 /* SceneDelegate.swift */; };
 		356B1EC324CE61AA00E19BF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356B1EC224CE61AA00E19BF9 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3562ED2D24CE66520099A94F /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
 		356B1EBB24CE61AA00E19BF9 /* handwriting-drawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "handwriting-drawing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		356B1EBE24CE61AA00E19BF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		356B1EC024CE61AA00E19BF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				356B1EBE24CE61AA00E19BF9 /* AppDelegate.swift */,
 				356B1EC024CE61AA00E19BF9 /* SceneDelegate.swift */,
 				356B1EC224CE61AA00E19BF9 /* ViewController.swift */,
+				3562ED2D24CE66520099A94F /* CanvasView.swift */,
 				356B1EC424CE61AA00E19BF9 /* Main.storyboard */,
 				356B1EC724CE61AA00E19BF9 /* Assets.xcassets */,
 				356B1EC924CE61AA00E19BF9 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				356B1EC324CE61AA00E19BF9 /* ViewController.swift in Sources */,
 				356B1EBF24CE61AA00E19BF9 /* AppDelegate.swift in Sources */,
+				3562ED2E24CE66520099A94F /* CanvasView.swift in Sources */,
 				356B1EC124CE61AA00E19BF9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
